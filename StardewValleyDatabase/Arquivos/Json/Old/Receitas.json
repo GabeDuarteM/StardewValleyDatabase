@@ -1,0 +1,1465 @@
+[
+  {
+    "nCdItem": 194,
+    "sNome": "Fried Egg",
+    "sSource": "Default recipe",
+    "sLinha": "Fried Egg: \"-5 1/10 10/194/default\"",
+    "lstItens": [
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 195,
+    "sNome": "Omelet",
+    "sSource": "Cooking Channel",
+    "sLinha": "Omelet: \"-5 1 -6 1/1 10/195/l 10\"",
+    "lstItens": [
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 196,
+    "sNome": "Salad",
+    "sSource": "Acquire friendship with Emily (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Salad: \"20 1 22 1 419 1/25 5/196/f Emily 3\"",
+    "lstItens": [
+      {
+        "sNome": "Leek",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Dandelion",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Vinegar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 197,
+    "sNome": "Cheese Cauli.",
+    "sSource": "Acquire friendship with Pam (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Cheese Cauli.: \"190 1 424 1/5 5/197/f Pam 3\"",
+    "lstItens": [
+      {
+        "sNome": "Cauliflower",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Cheese",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 198,
+    "sNome": "Baked Fish",
+    "sSource": "Cooking Channel",
+    "sLinha": "Baked Fish: \"145 1 132 1 246 1/6 5/198/l 12\"",
+    "lstItens": [
+      {
+        "sNome": "Sunfish",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Bream",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 199,
+    "sNome": "Parsnip Soup",
+    "sSource": "Acquire friendship with Caroline (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Parsnip Soup: \"24 1 -6 1 419 1/1 8/199/f Caroline 3\"",
+    "lstItens": [
+      {
+        "sNome": "Parsnip",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Vinegar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 200,
+    "sNome": "Vegetable Stew",
+    "sSource": "Acquire friendship with Caroline (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Vegetable Stew: \"256 1 284 1/1 8/200/f Caroline 7\"",
+    "lstItens": [
+      {
+        "sNome": "Tomato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Beet",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 201,
+    "sNome": "Complete Breakfast",
+    "sSource": "Cooking Channel",
+    "sLinha": "Complete Breakfast: \"194 1 -6 1 210 1 211 1/2 2/201/l 26\"",
+    "lstItens": [
+      {
+        "sNome": "Fried Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Hashbrowns",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Pancakes",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 202,
+    "sNome": "Fried Calamari",
+    "sSource": "Acquire friendship with Jodi (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Fried Calamari: \"151 1 246 1 247 1/3 3/202/f Jodi 3\"",
+    "lstItens": [
+      {
+        "sNome": "Squid",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 203,
+    "sNome": "Strange Bun",
+    "sSource": "Acquire friendship with Shane (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Strange Bun: \"246 1 722 1 725 1/1 1/203/f Shane 3\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Periwinkle",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oak Resin",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 204,
+    "sNome": "Lucky Lunch",
+    "sSource": "Acquire skill Luck level 8.",
+    "sLinha": "Lucky Lunch: \"154 1 229 1 597 1/20 1/204/s Luck 8\"",
+    "lstItens": [
+      {
+        "sNome": "Sea Cucumber",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tortilla",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Blue Jazz",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 205,
+    "sNome": "Fried Mushroom",
+    "sSource": "Acquire friendship with Demetrius (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Fried Mushroom: \"404 1 257 1 247 1/22 3/205/f Demetrius 3\"",
+    "lstItens": [
+      {
+        "sNome": "Common Mushroom",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Morel",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 206,
+    "sNome": "Pizza",
+    "sSource": "Cooking Channel",
+    "sLinha": "Pizza: \"246 1 256 1 424 1/6 4/206/l 20\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tomato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Cheese",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 207,
+    "sNome": "Bean Hotpot",
+    "sSource": "Acquire friendship with Clint (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Bean Hotpot: \"188 2/1 8/207/f Clint 7\"",
+    "lstItens": [
+      {
+        "sNome": "Green Bean",
+        "nQuantidade": 2,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 208,
+    "sNome": "Glazed Yams",
+    "sSource": "Cooking Channel",
+    "sLinha": "Glazed Yams: \"280 1 245 1/1 10/208/l 22\"",
+    "lstItens": [
+      {
+        "sNome": "Yam",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 209,
+    "sNome": "Carp Surprise",
+    "sSource": "Cooking Channel",
+    "sLinha": "Carp Surprise: \"142 4/1 6/209/l 16\"",
+    "lstItens": [
+      {
+        "sNome": "Carp",
+        "nQuantidade": 4,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 210,
+    "sNome": "Hashbrowns",
+    "sSource": "Cooking Channel",
+    "sLinha": "Hashbrowns: \"192 1 247 1/1 9/210/l 14\"",
+    "lstItens": [
+      {
+        "sNome": "Potato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 211,
+    "sNome": "Pancakes",
+    "sSource": "Cooking Channel",
+    "sLinha": "Pancakes: \"246 1 -5 1/5 5/211/l 18\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 212,
+    "sNome": "Salmon Dinner",
+    "sSource": "Acquire friendship with Gus (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Salmon Dinner: \"139 1 300 1 250 1/3 3/212/f Gus 3\"",
+    "lstItens": [
+      {
+        "sNome": "Salmon",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Amaranth",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Kale",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 213,
+    "sNome": "Fish Taco",
+    "sSource": "Acquire friendship with Linus (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Fish Taco: \"130 1 229 1 266 1 306 1/1 4/213/f Linus 7\"",
+    "lstItens": [
+      {
+        "sNome": "Tuna",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tortilla",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Red Cabbage",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Mayonnaise",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 214,
+    "sNome": "Crispy Bass",
+    "sSource": "Acquire friendship with Kent (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Crispy Bass: \"136 1 246 1 247 1/1 5/214/f Kent 3\"",
+    "lstItens": [
+      {
+        "sNome": "Largemouth Bass",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 215,
+    "sNome": "Pepper Poppers",
+    "sSource": "Acquire friendship with Shane (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Pepper Poppers: \"260 1 424 1/10 3/215/f Shane 3\"",
+    "lstItens": [
+      {
+        "sNome": "Hot Pepper",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Cheese",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 216,
+    "sNome": "Bread",
+    "sSource": "Cooking Channel",
+    "sLinha": "Bread: \"246 1/50 2/216/l 11\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 218,
+    "sNome": "Tom Kha Soup",
+    "sSource": "Acquire friendship with Sandy (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Tom Kha Soup: \"88 1 720 1 404 1/15 2/218/f Sandy 7\"",
+    "lstItens": [
+      {
+        "sNome": "Coconut",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Shrimp",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Common Mushroom",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 219,
+    "sNome": "Trout Soup",
+    "sSource": "Cooking Channel",
+    "sLinha": "Trout Soup: \"138 1 153 1/5 4/219/l 19\"",
+    "lstItens": [
+      {
+        "sNome": "Rainbow Trout",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Green Algae",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 220,
+    "sNome": "Chocolate Cake",
+    "sSource": "Cooking Channel",
+    "sLinha": "Chocolate Cake: \"246 1 245 1 -5 1/5 5/220/l 23\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 221,
+    "sNome": "Pink Cake",
+    "sSource": "Cooking Channel",
+    "sLinha": "Pink Cake: \"254 1 246 1 245 1 -5 1/6 5/221/l 25\"",
+    "lstItens": [
+      {
+        "sNome": "Melon",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 222,
+    "sNome": "Rhubarb Pie",
+    "sSource": "Acquire friendship with Marnie (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Rhubarb Pie: \"252 1 246 1 245 1/2 4/222/f Marnie 7\"",
+    "lstItens": [
+      {
+        "sNome": "Rhubarb",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 223,
+    "sNome": "Cookies",
+    "sSource": "Acquire friendship with Evelyn (4x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Cookies: \"246 1 245 1 -5 1/3 7/223/null\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 224,
+    "sNome": "Spaghetti",
+    "sSource": "Acquire friendship with Lewis (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Spaghetti: \"246 1 256 1/5 5/224/f Lewis 3\"",
+    "lstItens": [
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tomato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 225,
+    "sNome": "Fried Eel",
+    "sSource": "Acquire friendship with George (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Fried Eel: \"148 1 247 1/3 4/225/f George 3\"",
+    "lstItens": [
+      {
+        "sNome": "Eel",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 226,
+    "sNome": "Spicy Eel",
+    "sSource": "Acquire friendship with George (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Spicy Eel: \"148 1 260 1/10 3/226/f George 7\"",
+    "lstItens": [
+      {
+        "sNome": "Eel",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Hot Pepper",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 227,
+    "sNome": "Sashimi",
+    "sSource": "Acquire friendship with Linus (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Sashimi: \"-4 1/20 1/227/f Linus 3\"",
+    "lstItens": [
+      {
+        "sNome": "Fish",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 228,
+    "sNome": "Maki Roll",
+    "sSource": "Cooking Channel",
+    "sLinha": "Maki Roll: \"-4 1 152 1 423 1/10 3/228/l 15\"",
+    "lstItens": [
+      {
+        "sNome": "Fish",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Seaweed",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Rice",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 229,
+    "sNome": "Tortilla",
+    "sSource": "Cooking Channel",
+    "sLinha": "Tortilla: \"270 1/5 4/229/l 13\"",
+    "lstItens": [
+      {
+        "sNome": "Corn",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 230,
+    "sNome": "Red Plate",
+    "sSource": "Acquire friendship with Emily (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Red Plate: \"266 1 264 1/15 3/230/f Emily 7\"",
+    "lstItens": [
+      {
+        "sNome": "Red Cabbage",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Radish",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 231,
+    "sNome": "Eggplant Parm.",
+    "sSource": "Acquire friendship with Lewis (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Eggplant Parm.: \"272 1 256 1/30 2/231/f Lewis 7\"",
+    "lstItens": [
+      {
+        "sNome": "Eggplant",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tomato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 232,
+    "sNome": "Rice Pudding",
+    "sSource": "Acquire friendship with Evelyn (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Rice Pudding: \"-6 1 245 1 423 1/9 3/232/f Evelyn 7\"",
+    "lstItens": [
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Rice",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 233,
+    "sNome": "Ice Cream",
+    "sSource": "Acquire friendship with Jodi (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Ice Cream: \"-6 1 245 1/2 4/233/f Jodi 7\"",
+    "lstItens": [
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 234,
+    "sNome": "Blueberry Tart",
+    "sSource": "Acquire friendship with Pierre (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Blueberry Tart: \"258 1 246 1 245 1 -5 1/10 3/234/f Pierre 3\"",
+    "lstItens": [
+      {
+        "sNome": "Blueberry",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 235,
+    "sNome": "Autumn's Bounty",
+    "sSource": "Acquire friendship with Demetrius (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Autumn's Bounty: \"280 1 276 1/50 1/235/f Demetrius 7\"",
+    "lstItens": [
+      {
+        "sNome": "Yam",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Pumpkin",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 236,
+    "sNome": "Pumpkin Soup",
+    "sSource": "Acquire friendship with Robin (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Pumpkin Soup: \"276 1 -6 1/2 4/236/f Robin 7\"",
+    "lstItens": [
+      {
+        "sNome": "Pumpkin",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 237,
+    "sNome": "Super Meal",
+    "sSource": "Acquire friendship with Kent (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Super Meal: \"278 1 282 1 274 1/1 7/237/f Kent 7\"",
+    "lstItens": [
+      {
+        "sNome": "Bok Choy",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Cranberries",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Artichoke",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 238,
+    "sNome": "Cran. Sauce",
+    "sSource": "Acquire friendship with Gus (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Cran. Sauce: \"282 1 245 1/9 3/238/f Gus 7\"",
+    "lstItens": [
+      {
+        "sNome": "Cranberries",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 239,
+    "sNome": "Stuffing",
+    "sSource": "Acquire friendship with Pam (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Stuffing: \"216 1 282 1 408 1/2 4/239/f Pam 7\"",
+    "lstItens": [
+      {
+        "sNome": "Bread",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Cranberries",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Hazelnut",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 240,
+    "sNome": "Farmer's Lunch",
+    "sSource": "Acquire skill Farming level 3.",
+    "sLinha": "Farmer's Lunch: \"195 1 24 1/60 1/240/s Farming 3\"",
+    "lstItens": [
+      {
+        "sNome": "Omelet",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Parsnip",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 241,
+    "sNome": "Survival Burger",
+    "sSource": "Acquire skill Foraging level 2.",
+    "sLinha": "Survival Burger: \"216 1 78 1 272 1/70 1/241/s Foraging 2\"",
+    "lstItens": [
+      {
+        "sNome": "Bread",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Cave Carrot",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Eggplant",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 242,
+    "sNome": "Dish o' The Sea",
+    "sSource": "Acquire skill Fishing level 3.",
+    "sLinha": "Dish o' The Sea: \"131 2 210 1/38 2/242/s Fishing 3\"",
+    "lstItens": [
+      {
+        "sNome": "Sardine",
+        "nQuantidade": 2,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Hashbrowns",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 243,
+    "sNome": "Miner's Treat",
+    "sSource": "Acquire skill Mining level 3.",
+    "sLinha": "Miner's Treat: \"78 2 245 1 -6 1/60 1/243/s Mining 3\"",
+    "lstItens": [
+      {
+        "sNome": "Cave Carrot",
+        "nQuantidade": 2,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 244,
+    "sNome": "Roots Platter",
+    "sSource": "Acquire skill Combat level 3.",
+    "sLinha": "Roots Platter: \"78 1 412 1/1 10/244/s Combat 3\"",
+    "lstItens": [
+      {
+        "sNome": "Cave Carrot",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Winter Root",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 456,
+    "sNome": "Algae Soup",
+    "sSource": "Acquire friendship with Clint (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Algae Soup: \"153 4/1 5/456/f Clint 3\"",
+    "lstItens": [
+      {
+        "sNome": "Green Algae",
+        "nQuantidade": 4,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 457,
+    "sNome": "Pale Broth",
+    "sSource": "Acquire friendship with Marnie (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Pale Broth: \"157 2/1 4/457/f Marnie 3\"",
+    "lstItens": [
+      {
+        "sNome": "White Algae",
+        "nQuantidade": 2,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 604,
+    "sNome": "Plum Pudding",
+    "sSource": "Cooking Channel",
+    "sLinha": "Plum Pudding: \"406 2 246 1 245 1/1 10/604/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Wild Plum",
+        "nQuantidade": 2,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 605,
+    "sNome": "Artichoke Dip",
+    "sSource": "Cooking Channel",
+    "sLinha": "Artichoke Dip: \"274 1 184 1/1 10/605/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Artichoke",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 606,
+    "sNome": "Stir Fry",
+    "sSource": "Cooking Channel",
+    "sLinha": "Stir Fry: \"78 1 404 1 250 1 247 1/1 10/606/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Cave Carrot",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Common Mushroom",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Kale",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 607,
+    "sNome": "Roasted Hazelnuts",
+    "sSource": "Cooking Channel",
+    "sLinha": "Roasted Hazelnuts: \"408 3/1 10/607/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Hazelnut",
+        "nQuantidade": 3,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 608,
+    "sNome": "Pumpkin Pie",
+    "sSource": "Cooking Channel",
+    "sLinha": "Pumpkin Pie: \"276 1 246 1 184 1 245 1/1 10/608/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Pumpkin",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 609,
+    "sNome": "Radish Salad",
+    "sSource": "Cooking Channel",
+    "sLinha": "Radish Salad: \"247 1 419 1 264 1/1 10/609/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Vinegar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Radish",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 610,
+    "sNome": "Fruit Salad",
+    "sSource": "Cooking Channel",
+    "sLinha": "Fruit Salad: \"258 1 254 1 634 1/1 10/610/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Blueberry",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Melon",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Apricot",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 611,
+    "sNome": "Blackberry Cobbler",
+    "sSource": "Cooking Channel",
+    "sLinha": "Blackberry Cobbler: \"410 2 245 1 246 1/1 10/611/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Blackberry",
+        "nQuantidade": 2,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 612,
+    "sNome": "Cranberry Candy",
+    "sSource": "Cooking Channel",
+    "sLinha": "Cranberry Candy: \"282 1 613 1 245 1/1 10/612/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Cranberries",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Apple",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 618,
+    "sNome": "Bruschetta",
+    "sSource": "Cooking Channel",
+    "sLinha": "Bruschetta: \"216 1 247 1 256 1/1 10/618/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Bread",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tomato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 648,
+    "sNome": "Coleslaw",
+    "sSource": "Cooking Channel",
+    "sLinha": "Coleslaw: \"266 1 419 1 306 1/1 10/648/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Red Cabbage",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Vinegar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Mayonnaise",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 649,
+    "sNome": "Fiddlehead Risotto",
+    "sSource": "Cooking Channel",
+    "sLinha": "Fiddlehead Risotto: \"247 1 259 1 248 1/1 10/649/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Fiddlehead Fern",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Garlic",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 651,
+    "sNome": "Poppyseed Muffin",
+    "sSource": "Cooking Channel",
+    "sLinha": "Poppyseed Muffin: \"376 1 246 1 245 1/1 10/651/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Poppy",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 727,
+    "sNome": "Chowder",
+    "sSource": "Acquire friendship with Willy (3x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Chowder: \"372 1 184 1/1 10/727/f Willy 3\"",
+    "lstItens": [
+      {
+        "sNome": "Clam",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 730,
+    "sNome": "Lobster Bisque",
+    "sSource": "Acquire friendship with Willy (9x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Lobster Bisque: \"715 1 184 1/1 10/730/f Willy 9\"",
+    "lstItens": [
+      {
+        "sNome": "Lobster",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Milk",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 729,
+    "sNome": "Escargot",
+    "sSource": "Acquire friendship with Willy (5x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Escargot: \"721 1 248 1/1 10/729/f Willy 5\"",
+    "lstItens": [
+      {
+        "sNome": "Snail",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Garlic",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 728,
+    "sNome": "Fish Stew",
+    "sSource": "Acquire friendship with Willy (7x <span class=\"glyphicon glyphicon-heart\"></span>).",
+    "sLinha": "Fish Stew: \"716 1 719 1 722 1 256 1/1 10/728/f Willy 7\"",
+    "lstItens": [
+      {
+        "sNome": "Crayfish",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Mussel",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Periwinkle",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Tomato",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 731,
+    "sNome": "Maple Bar",
+    "sSource": "Cooking Channel",
+    "sLinha": "Maple Bar: \"724 1 245 1 246 1/1 10/731/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Maple Syrup",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Sugar",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  },
+  {
+    "nCdItem": 732,
+    "sNome": "Crab Cakes",
+    "sSource": "Cooking Channel",
+    "sLinha": "Crab Cakes: \"717 1 246 1 -5 1 247 1/1 10/732/l 100\"",
+    "lstItens": [
+      {
+        "sNome": "Crab",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Wheat Flour",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Egg",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      },
+      {
+        "sNome": "Oil",
+        "nQuantidade": 1,
+        "bIsVisivel": true
+      }
+    ]
+  }
+]

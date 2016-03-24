@@ -1,0 +1,567 @@
+[
+  {
+    "nCdItem": 16,
+    "sNome": "Wild Horseradish",
+    "sDescricao": "Foraging during spring."
+  },
+  {
+    "nCdItem": 18,
+    "sNome": "Daffodil",
+    "sDescricao": "Foraging during spring. Buy from Pierre's shop at the Flower Dance."
+  },
+  {
+    "nCdItem": 20,
+    "sNome": "Leek",
+    "sDescricao": "Foraging during spring."
+  },
+  {
+    "nCdItem": 22,
+    "sNome": "Dandelion",
+    "sDescricao": "Foraging during spring. Buy from Pierre's shop at the Flower Dance."
+  },
+  {
+    "nCdItem": 24,
+    "sNome": "Parsnip",
+    "sDescricao": "Crops during spring."
+  },
+  {
+    "nCdItem": 62,
+    "sNome": "Aquamarine",
+    "sDescricao": "Can be found in stones and boxes in the mines."
+  },
+  {
+    "nCdItem": 78,
+    "sNome": "Cave Carrot",
+    "sDescricao": "Can be found in boxes inside the mines or using the hoe on soil spots in the mines."
+  },
+  {
+    "nCdItem": 80,
+    "sNome": "Quartz",
+    "sDescricao": "Found on all levels of the mines and in geodes."
+  },
+  {
+    "nCdItem": 82,
+    "sNome": "Fire Quartz",
+    "sDescricao": "Can be found in the mines (level 80+) and in magma geodes."
+  },
+  {
+    "nCdItem": 84,
+    "sNome": "Frozen Tear",
+    "sDescricao": "Can be found in the mines (level 40 - 79) and in geodes."
+  },
+  {
+    "nCdItem": 86,
+    "sNome": "Earth Crystal",
+    "sDescricao": "Can be found in the mines (level 1 - 39) and in geodes."
+  },
+  {
+    "nCdItem": 88,
+    "sNome": "Coconut",
+    "sDescricao": "Found in the desert."
+  },
+  {
+    "nCdItem": 90,
+    "sNome": "Cactus Fruit",
+    "sDescricao": "Found in the desert."
+  },
+  {
+    "nCdItem": 128,
+    "sNome": "Pufferfish",
+    "sDescricao": "Found in the ocean, at early noon in summer. May also be purchased from the traveling cart."
+  },
+  {
+    "nCdItem": 130,
+    "sNome": "Tuna",
+    "sDescricao": "Found in the ocean at daytime in summer and winter."
+  },
+  {
+    "nCdItem": 131,
+    "sNome": "Sardine",
+    "sDescricao": "Found in the ocean at daytime in spring, fall, and winter."
+  },
+  {
+    "nCdItem": 132,
+    "sNome": "Bream",
+    "sDescricao": "Found in rivers at nighttime at all seasons."
+  },
+  {
+    "nCdItem": 136,
+    "sNome": "Largemouth Bass",
+    "sDescricao": "Found in lakes at daytime at all seasons."
+  },
+  {
+    "nCdItem": 140,
+    "sNome": "Walleye",
+    "sDescricao": "Found in rivers at nighttime on rainy days in fall."
+  },
+  {
+    "nCdItem": 142,
+    "sNome": "Carp",
+    "sDescricao": "Found in lakes anytime at all seasons."
+  },
+  {
+    "nCdItem": 143,
+    "sNome": "Catfish",
+    "sDescricao": "Found in rivers anytime on rainy days in spring and fall."
+  },
+  {
+    "nCdItem": 145,
+    "sNome": "Sunfish",
+    "sDescricao": "Found in rivers at daytime in spring and summer."
+  },
+  {
+    "nCdItem": 148,
+    "sNome": "Eel",
+    "sDescricao": "Found in the ocean at nighttime on rainy days in spring or fall."
+  },
+  {
+    "nCdItem": 150,
+    "sNome": "Red Snapper",
+    "sDescricao": "Found in the ocean at daytime on rainy days in summer and Fall."
+  },
+  {
+    "nCdItem": 156,
+    "sNome": "Ghostfish",
+    "sDescricao": "Found in ponds inside the mines anytime at all Seasons. May also be dropped by Ghosts."
+  },
+  {
+    "nCdItem": 164,
+    "sNome": "Sandfish",
+    "sDescricao": "Found in the pond at Calico desert. May also be purchased from the traveling cart."
+  },
+  {
+    "nCdItem": 174,
+    "sNome": "Large Egg",
+    "sDescricao": "Laid by hens."
+  },
+  {
+    "nCdItem": 178,
+    "sNome": "Hay",
+    "sDescricao": "Purchased from Marnie at the ranch or created by using the sickle on grass once you have a silo."
+  },
+  {
+    "nCdItem": 186,
+    "sNome": "Large Milk",
+    "sDescricao": "Produced by cows."
+  },
+  {
+    "nCdItem": 188,
+    "sNome": "Green Bean",
+    "sDescricao": "Crops during spring."
+  },
+  {
+    "nCdItem": 190,
+    "sNome": "Cauliflower",
+    "sDescricao": "Crops during spring."
+  },
+  {
+    "nCdItem": 192,
+    "sNome": "Potato",
+    "sDescricao": "Crops during spring."
+  },
+  {
+    "nCdItem": 194,
+    "sNome": "Fried Egg",
+    "sDescricao": "Acquired by cooking (recipe necessary)."
+  },
+  {
+    "nCdItem": 228,
+    "sNome": "Maki Roll",
+    "sDescricao": "Acquired by cooking (recipe necessary)."
+  },
+  {
+    "nCdItem": 254,
+    "sNome": "Melon",
+    "sDescricao": "Crops during summer."
+  },
+  {
+    "nCdItem": 256,
+    "sNome": "Tomato",
+    "sDescricao": "Crops during summer."
+  },
+  {
+    "nCdItem": 257,
+    "sNome": "Morel",
+    "sDescricao": "Foraging at Secret Woods in spring or in your farm's cave if you chose the mushroom perk."
+  },
+  {
+    "nCdItem": 258,
+    "sNome": "Blueberry",
+    "sDescricao": "Crops during summer."
+  },
+  {
+    "nCdItem": 259,
+    "sNome": "Fiddlehead Fern",
+    "sDescricao": "Found in the Secret Woods during summer."
+  },
+  {
+    "nCdItem": 260,
+    "sNome": "Hot Pepper",
+    "sDescricao": "Crops during summer."
+  },
+  {
+    "nCdItem": 262,
+    "sNome": "Wheat",
+    "sDescricao": "Crops during summer."
+  },
+  {
+    "nCdItem": 266,
+    "sNome": "Red Cabbage",
+    "sDescricao": "Crops during the summer. Seeds can be purchased from Pierre's at year 2 and onward."
+  },
+  {
+    "nCdItem": 270,
+    "sNome": "Corn",
+    "sDescricao": "Crops during summer and fall."
+  },
+  {
+    "nCdItem": 272,
+    "sNome": "Eggplant",
+    "sDescricao": "Crops during fall."
+  },
+  {
+    "nCdItem": 276,
+    "sNome": "Pumpkin",
+    "sDescricao": "Crops during fall."
+  },
+  {
+    "nCdItem": 280,
+    "sNome": "Yam",
+    "sDescricao": "Crops during fall."
+  },
+  {
+    "nCdItem": 334,
+    "sNome": "Copper Bar",
+    "sDescricao": "Smelting copper ore in the furnace."
+  },
+  {
+    "nCdItem": 335,
+    "sNome": "Iron Bar",
+    "sDescricao": "Smelting iron ore in the furnace."
+  },
+  {
+    "nCdItem": 336,
+    "sNome": "Gold Bar",
+    "sDescricao": "Smelting gold ore in the furnace."
+  },
+  {
+    "nCdItem": 340,
+    "sNome": "Honey",
+    "sDescricao": "Produced by bees. Requires bee house."
+  },
+  {
+    "nCdItem": 344,
+    "sNome": "Jelly",
+    "sDescricao": "Made from any fruit. Requires preserves jar."
+  },
+  {
+    "nCdItem": 348,
+    "sNome": "Wine",
+    "sDescricao": "Produced by putting most fruits into a keg."
+  },
+  {
+    "nCdItem": 372,
+    "sNome": "Clam",
+    "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand."
+  },
+  {
+    "nCdItem": 376,
+    "sNome": "Poppy",
+    "sDescricao": "Crops during summer."
+  },
+  {
+    "nCdItem": 388,
+    "sNome": "Wood",
+    "sDescricao": "Chopping trees or logs using an axe."
+  },
+  {
+    "nCdItem": 390,
+    "sNome": "Stone",
+    "sDescricao": "Smashing stones with a pickaxe."
+  },
+  {
+    "nCdItem": 392,
+    "sNome": "Nautilus Shell",
+    "sDescricao": "Found by foraging from the beach in winter."
+  },
+  {
+    "nCdItem": 396,
+    "sNome": "Spice Berry",
+    "sDescricao": "Foraging during summer."
+  },
+  {
+    "nCdItem": 397,
+    "sNome": "Sea Urchin",
+    "sDescricao": "Can be foraged on the far right side of the beach, accessible after using 300 wood to fix the bridge."
+  },
+  {
+    "nCdItem": 398,
+    "sNome": "Grape",
+    "sDescricao": "Foraging during summer."
+  },
+  {
+    "nCdItem": 402,
+    "sNome": "Sweet Pea",
+    "sDescricao": "Foraging during summer."
+  },
+  {
+    "nCdItem": 404,
+    "sNome": "Common Mushroom",
+    "sDescricao": "Foraging during fall or in your farm's cave if you chose the mushroom perk."
+  },
+  {
+    "nCdItem": 406,
+    "sNome": "Wild Plum",
+    "sDescricao": "Foraging during fall or in your farm's cave if you chose the mushroom perk."
+  },
+  {
+    "nCdItem": 408,
+    "sNome": "Hazelnut",
+    "sDescricao": "Foraging during fall."
+  },
+  {
+    "nCdItem": 410,
+    "sNome": "Blackberry",
+    "sDescricao": "Foraging during fall."
+  },
+  {
+    "nCdItem": 412,
+    "sNome": "Winter Root",
+    "sDescricao": "Foraging during winter or dropped by slimes in the mine (level 41-79)."
+  },
+  {
+    "nCdItem": 414,
+    "sNome": "Crystal Fruit",
+    "sDescricao": "Foraging during winter or dropped by coal sprites in the mine (level 41-79)."
+  },
+  {
+    "nCdItem": 416,
+    "sNome": "Snow Yam",
+    "sDescricao": "Foraging during winter (using a hoe outside the farm)."
+  },
+  {
+    "nCdItem": 418,
+    "sNome": "Crocus",
+    "sDescricao": "Foraging during winter."
+  },
+  {
+    "nCdItem": 420,
+    "sNome": "Red Mushroom",
+    "sDescricao": "Can be found in the mines (frequent in depths 105 to 120) or in your farm's cave if you chose the mushroom perk."
+  },
+  {
+    "nCdItem": 421,
+    "sNome": "Sunflower",
+    "sDescricao": "Crops during fall."
+  },
+  {
+    "nCdItem": 422,
+    "sNome": "Purple Mushroom",
+    "sDescricao": "Can be found in the mines (level 83-120) or in your farm's cave if you chose the mushroom perk."
+  },
+  {
+    "nCdItem": 424,
+    "sNome": "Cheese",
+    "sDescricao": "Made from cow milk. Requires cheese press"
+  },
+  {
+    "nCdItem": 426,
+    "sNome": "Goat Cheese",
+    "sDescricao": "Made from goat milk. Requires cheese press."
+  },
+  {
+    "nCdItem": 428,
+    "sNome": "Cloth",
+    "sDescricao": "Made from wool. Requires loom. Can also be rarely obtained by recycling soggy newspaper."
+  },
+  {
+    "nCdItem": 430,
+    "sNome": "Truffle",
+    "sDescricao": "Found by pigs while grazing outdoors."
+  },
+  {
+    "nCdItem": 432,
+    "sNome": "Truffle Oil",
+    "sDescricao": "Made from truffles. Requires oil maker."
+  },
+  {
+    "nCdItem": 438,
+    "sNome": "L. Goat Milk",
+    "sDescricao": "Produced by goats."
+  },
+  {
+    "nCdItem": 440,
+    "sNome": "Wool",
+    "sDescricao": "Produced by sheeps and rabbits."
+  },
+  {
+    "nCdItem": 442,
+    "sNome": "Duck Egg",
+    "sDescricao": "Laid by ducks."
+  },
+  {
+    "nCdItem": 444,
+    "sNome": "Duck Feather",
+    "sDescricao": "Produced by ducks in the coop (similar to how chickens and ducks lay eggs)."
+  },
+  {
+    "nCdItem": 446,
+    "sNome": "Rabbit's Foot",
+    "sDescricao": "Dropped by rabbits in the coop. Also dropped by a serpent in Skull Cavern (0.8%)."
+  },
+  {
+    "nCdItem": 536,
+    "sNome": "Frozen Geode",
+    "sDescricao": "Can be found in the mines (level 40-79)."
+  },
+  {
+    "nCdItem": 613,
+    "sNome": "Apple",
+    "sDescricao": "Gathered from apple trees during fall."
+  },
+  {
+    "nCdItem": 634,
+    "sNome": "Apricot",
+    "sDescricao": "Gathered from apricot trees during spring."
+  },
+  {
+    "nCdItem": 635,
+    "sNome": "Orange",
+    "sDescricao": "Gathered from orange trees during summer or in your farm's cave if you chose the fruit perk."
+  },
+  {
+    "nCdItem": 636,
+    "sNome": "Peach",
+    "sDescricao": "Gathered from peach trees during summer."
+  },
+  {
+    "nCdItem": 637,
+    "sNome": "Pomegranate",
+    "sDescricao": "Gathered from pomegranate trees during fall."
+  },
+  {
+    "nCdItem": 638,
+    "sNome": "Cherry",
+    "sDescricao": "Gathered from cherry trees during spring or in your farm's cave if you chose the fruit perk."
+  },
+  {
+    "nCdItem": 698,
+    "sNome": "Sturgeon",
+    "sDescricao": "Found in lakes at daytime in summer and winter."
+  },
+  {
+    "nCdItem": 699,
+    "sNome": "Tiger Trout",
+    "sDescricao": "Found in rivers at daytime (early afternoon) in fall and winter."
+  },
+  {
+    "nCdItem": 700,
+    "sNome": "Bullhead",
+    "sDescricao": "Found in lakes anytime at all seasons."
+  },
+  {
+    "nCdItem": 701,
+    "sNome": "Tilapia",
+    "sDescricao": "Found in the ocean at daytime in summer and fall."
+  },
+  {
+    "nCdItem": 702,
+    "sNome": "Chub",
+    "sDescricao": "Found in lakes and rivers anytime at all seasons."
+  },
+  {
+    "nCdItem": 706,
+    "sNome": "Shad",
+    "sDescricao": "Found in rivers at daytime on rainy days in spring, summer, and fall."
+  },
+  {
+    "nCdItem": 709,
+    "sNome": "Hardwood",
+    "sDescricao": "Chopping large stumps with an upgraded axe. Also in crates in the mines."
+  },
+  {
+    "nCdItem": 715,
+    "sNome": "Lobster",
+    "sDescricao": "Gathered from crab pots."
+  },
+  {
+    "nCdItem": 716,
+    "sNome": "Crayfish",
+    "sDescricao": "Gathered from crab pots in rivers in spring."
+  },
+  {
+    "nCdItem": 717,
+    "sNome": "Crab",
+    "sDescricao": "Gathered from crab pots. Also drops from killing hermit crabs in the mines."
+  },
+  {
+    "nCdItem": 718,
+    "sNome": "Cockle",
+    "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand."
+  },
+  {
+    "nCdItem": 719,
+    "sNome": "Mussel",
+    "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand."
+  },
+  {
+    "nCdItem": 720,
+    "sNome": "Shrimp",
+    "sDescricao": "Gathered from crab pots."
+  },
+  {
+    "nCdItem": 721,
+    "sNome": "Snail",
+    "sDescricao": "Gathered from crab pots."
+  },
+  {
+    "nCdItem": 722,
+    "sNome": "Periwinkle",
+    "sDescricao": "Gathered from crab pots."
+  },
+  {
+    "nCdItem": 723,
+    "sNome": "Oyster",
+    "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand."
+  },
+  {
+    "nCdItem": 724,
+    "sNome": "Maple Syrup",
+    "sDescricao": "Harvested from maple trees using a tapper."
+  },
+  {
+    "nCdItem": 725,
+    "sNome": "Oak Resin",
+    "sDescricao": "Harvested from oak trees using a tapper."
+  },
+  {
+    "nCdItem": 726,
+    "sNome": "Pine Tar",
+    "sDescricao": "Harvested from pine trees using a tapper."
+  },
+  {
+    "nCdItem": 734,
+    "sNome": "Woodskip",
+    "sDescricao": "Found in the Secret Woods anytime at all Seasons. May also be purchased from the traveling cart."
+  },
+  {
+    "nCdItem": 766,
+    "sNome": "Slime",
+    "sDescricao": "Dropped by slimes in the mines."
+  },
+  {
+    "nCdItem": 767,
+    "sNome": "Bat Wing",
+    "sDescricao": "Dropped by bats in the mines."
+  },
+  {
+    "nCdItem": 768,
+    "sNome": "Solar Essence",
+    "sDescricao": "Dropped by ghosts in the mines."
+  },
+  {
+    "nCdItem": 769,
+    "sNome": "Void Essence",
+    "sDescricao": "Dropped by shadow men in the mines."
+  }
+]

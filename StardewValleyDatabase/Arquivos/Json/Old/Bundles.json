@@ -1,0 +1,1143 @@
+[
+  {
+    "nCdBundle": 0,
+    "sNome": "Spring Crops",
+    "sLocal": "Pantry",
+    "sRecompensa": "Speed-Gro x20",
+    "sLinha": "Pantry/0: \"Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during spring.",
+        "sNome": "Parsnip",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during spring.",
+        "sNome": "Green Bean",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during spring.",
+        "sNome": "Cauliflower",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during spring.",
+        "sNome": "Potato",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 1,
+    "sNome": "Summer Crops",
+    "sLocal": "Pantry",
+    "sRecompensa": "Quality Sprinkler x1",
+    "sLinha": "Pantry/1: \"Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Tomato",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Hot Pepper",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Blueberry",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Melon",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 2,
+    "sNome": "Fall Crops",
+    "sLocal": "Pantry",
+    "sRecompensa": "Bee House x1",
+    "sLinha": "Pantry/2: \"Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during summer and fall.",
+        "sNome": "Corn",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during fall.",
+        "sNome": "Eggplant",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during fall.",
+        "sNome": "Pumpkin",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during fall.",
+        "sNome": "Yam",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 3,
+    "sNome": "Quality Crops",
+    "sLocal": "Pantry",
+    "sRecompensa": "Preserves Jar x1",
+    "sLinha": "Pantry/3: \"Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 5,
+        "sDescricao": "Crops during spring.",
+        "sNome": "Parsnip",
+        "sQualidade": "Gold"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 5,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Melon",
+        "sQualidade": "Gold"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 5,
+        "sDescricao": "Crops during fall.",
+        "sNome": "Pumpkin",
+        "sQualidade": "Gold"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 5,
+        "sDescricao": "Crops during summer and fall.",
+        "sNome": "Corn",
+        "sQualidade": "Gold"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 4,
+    "sNome": "Animal",
+    "sLocal": "Pantry",
+    "sRecompensa": "Cheese Press x1",
+    "sLinha": "Pantry/4: \"Animal/BO 16 1/186 1 0 182 1 0 174 1 0 438 1 0 440 1 0 442 1 0 639 1 0 640 1 0 641 1 0 642 1 0 643 1 0/4/5\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Produced by cows.",
+        "sNome": "Large Milk",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Laid by hens.",
+        "sNome": "Large Egg",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Laid by hens.",
+        "sNome": "Large Egg",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Produced by goats.",
+        "sNome": "L. Goat Milk",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Produced by sheeps and rabbits.",
+        "sNome": "Wool",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Laid by ducks.",
+        "sNome": "Duck Egg",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 5,
+    "sNome": "Artisan",
+    "sLocal": "Pantry",
+    "sRecompensa": "Keg x1",
+    "sLinha": "Pantry/5: \"Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Made from truffles. Requires oil maker.",
+        "sNome": "Truffle Oil",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Made from wool. Requires loom. Can also be rarely obtained by recycling soggy newspaper.",
+        "sNome": "Cloth",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Made from goat milk. Requires cheese press.",
+        "sNome": "Goat Cheese",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Made from cow milk. Requires cheese press",
+        "sNome": "Cheese",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Produced by bees. Requires bee house.",
+        "sNome": "Honey",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Made from any fruit. Requires preserves jar.",
+        "sNome": "Jelly",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from apple trees during fall.",
+        "sNome": "Apple",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from apricot trees during spring.",
+        "sNome": "Apricot",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from orange trees during summer or in your farm's cave if you chose the fruit perk.",
+        "sNome": "Orange",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from peach trees during summer.",
+        "sNome": "Peach",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from pomegranate trees during fall.",
+        "sNome": "Pomegranate",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from cherry trees during spring or in your farm's cave if you chose the fruit perk.",
+        "sNome": "Cherry",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 6,
+    "sNome": "River Fish",
+    "sLocal": "Fish Tank",
+    "sRecompensa": "Bait x30",
+    "sLinha": "Fish Tank/6: \"River Fish/O 685 30/145 1 0 143 1 0 706 1 0 699 1 0/6\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in rivers at daytime in spring and summer.",
+        "sNome": "Sunfish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in rivers anytime on rainy days in spring and fall.",
+        "sNome": "Catfish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in rivers at daytime on rainy days in spring, summer, and fall.",
+        "sNome": "Shad",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in rivers at daytime (early afternoon) in fall and winter.",
+        "sNome": "Tiger Trout",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 7,
+    "sNome": "Lake Fish",
+    "sLocal": "Fish Tank",
+    "sRecompensa": "Dressed Spinner x1",
+    "sLinha": "Fish Tank/7: \"Lake Fish/O 687 1/136 1 0 142 1 0 700 1 0 698 1 0/0\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in lakes at daytime at all seasons.",
+        "sNome": "Largemouth Bass",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in lakes anytime at all seasons.",
+        "sNome": "Carp",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in lakes anytime at all seasons.",
+        "sNome": "Bullhead",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in lakes at daytime in summer and winter.",
+        "sNome": "Sturgeon",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 8,
+    "sNome": "Ocean Fish",
+    "sLocal": "Fish Tank",
+    "sRecompensa": "Warp Totem: Beach x5",
+    "sLinha": "Fish Tank/8: \"Ocean Fish/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0/5\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the ocean at daytime in spring, fall, and winter.",
+        "sNome": "Sardine",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the ocean at daytime in summer and winter.",
+        "sNome": "Tuna",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the ocean at daytime on rainy days in summer and Fall.",
+        "sNome": "Red Snapper",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the ocean at daytime in summer and fall.",
+        "sNome": "Tilapia",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 9,
+    "sNome": "Night Fishing",
+    "sLocal": "Fish Tank",
+    "sRecompensa": "Small Glow Ring x1",
+    "sLinha": "Fish Tank/9: \"Night Fishing/R 516 1/140 1 0 132 1 0 148 1 0/1\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in rivers at nighttime on rainy days in fall.",
+        "sNome": "Walleye",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in rivers at nighttime at all seasons.",
+        "sNome": "Bream",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the ocean at nighttime on rainy days in spring or fall.",
+        "sNome": "Eel",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 10,
+    "sNome": "Specialty Fish",
+    "sLocal": "Fish Tank",
+    "sRecompensa": "Dish O' The Sea x5",
+    "sLinha": "Fish Tank/10: \"Specialty Fish/O 242 5/128 1 0 156 1 0 164 1 0 734 1 0/4\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the ocean, at early noon in summer. May also be purchased from the traveling cart.",
+        "sNome": "Pufferfish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in ponds inside the mines anytime at all Seasons. May also be dropped by Ghosts.",
+        "sNome": "Ghostfish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the pond at Calico desert. May also be purchased from the traveling cart.",
+        "sNome": "Sandfish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the Secret Woods anytime at all Seasons. May also be purchased from the traveling cart.",
+        "sNome": "Woodskip",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 11,
+    "sNome": "Crab Pot",
+    "sLocal": "Fish Tank",
+    "sRecompensa": "Crab Pot x3",
+    "sLinha": "Fish Tank/11: \"Crab Pot/O 710 3/715 1 0 716 1 0 717 1 0 718 1 0 719 1 0 720 1 0 721 1 0 722 1 0 723 1 0 372 1 0/1/5\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots.",
+        "sNome": "Lobster",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots in rivers in spring.",
+        "sNome": "Crayfish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots. Also drops from killing hermit crabs in the mines.",
+        "sNome": "Crab",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand.",
+        "sNome": "Cockle",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand.",
+        "sNome": "Mussel",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots.",
+        "sNome": "Shrimp",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots.",
+        "sNome": "Snail",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots.",
+        "sNome": "Periwinkle",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand.",
+        "sNome": "Oyster",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from crab pots. Can be foraged from areas with sand.",
+        "sNome": "Clam",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 13,
+    "sNome": "Spring Foraging",
+    "sLocal": "Crafts Room",
+    "sRecompensa": "Spring Seeds x30",
+    "sLinha": "Crafts Room/13: \"Spring Foraging/O 495 30/16 1 0 18 1 0 20 1 0 22 1 0/0\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during spring.",
+        "sNome": "Wild Horseradish",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during spring. Buy from Pierre's shop at the Flower Dance.",
+        "sNome": "Daffodil",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during spring.",
+        "sNome": "Leek",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during spring. Buy from Pierre's shop at the Flower Dance.",
+        "sNome": "Dandelion",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 14,
+    "sNome": "Summer Foraging",
+    "sLocal": "Crafts Room",
+    "sRecompensa": "Summer Seeds x30",
+    "sLinha": "Crafts Room/14: \"Summer Foraging/O 496 30/396 1 0 398 1 0 402 1 0/3\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during summer.",
+        "sNome": "Spice Berry",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during summer.",
+        "sNome": "Grape",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during summer.",
+        "sNome": "Sweet Pea",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 15,
+    "sNome": "Fall Foraging",
+    "sLocal": "Crafts Room",
+    "sRecompensa": "Fall Seeds x30",
+    "sLinha": "Crafts Room/15: \"Fall Foraging/O 497 30/404 1 0 406 1 0 408 1 0 410 1 0/2\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during fall or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Common Mushroom",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during fall or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Wild Plum",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during fall.",
+        "sNome": "Hazelnut",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during fall.",
+        "sNome": "Blackberry",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 16,
+    "sNome": "Winter Foraging",
+    "sLocal": "Crafts Room",
+    "sRecompensa": "Winter Seeds x30",
+    "sLinha": "Crafts Room/16: \"Winter Foraging/O 498 30/412 1 0 414 1 0 416 1 0 418 1 0/6\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during winter or dropped by slimes in the mine (level 41-79).",
+        "sNome": "Winter Root",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during winter or dropped by coal sprites in the mine (level 41-79).",
+        "sNome": "Crystal Fruit",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during winter (using a hoe outside the farm).",
+        "sNome": "Snow Yam",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging during winter.",
+        "sNome": "Crocus",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 17,
+    "sNome": "Construction",
+    "sLocal": "Crafts Room",
+    "sRecompensa": "Charcoal Kiln x1",
+    "sLinha": "Crafts Room/17: \"Construction/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 99,
+        "sDescricao": "Chopping trees or logs using an axe.",
+        "sNome": "Wood",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 99,
+        "sDescricao": "Chopping trees or logs using an axe.",
+        "sNome": "Wood",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 99,
+        "sDescricao": "Smashing stones with a pickaxe.",
+        "sNome": "Stone",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 10,
+        "sDescricao": "Chopping large stumps with an upgraded axe. Also in crates in the mines.",
+        "sNome": "Hardwood",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 19,
+    "sNome": "Exotic Foraging",
+    "sLocal": "Crafts Room",
+    "sRecompensa": "Autumn's Bounty x5",
+    "sLinha": "Crafts Room/19: \"Exotic Foraging/O 235 5/88 1 0 90 1 0 78 1 0 420 1 0 422 1 0 724 1 0 725 1 0 726 1 0 257 1 0/1/5\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the desert.",
+        "sNome": "Coconut",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the desert.",
+        "sNome": "Cactus Fruit",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in boxes inside the mines or using the hoe on soil spots in the mines.",
+        "sNome": "Cave Carrot",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (frequent in depths 105 to 120) or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Red Mushroom",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (level 83-120) or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Purple Mushroom",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Harvested from maple trees using a tapper.",
+        "sNome": "Maple Syrup",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Harvested from oak trees using a tapper.",
+        "sNome": "Oak Resin",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Harvested from pine trees using a tapper.",
+        "sNome": "Pine Tar",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Foraging at Secret Woods in spring or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Morel",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 20,
+    "sNome": "Blacksmith's",
+    "sLocal": "Boiler Room",
+    "sRecompensa": "Furnace x1",
+    "sLinha": "Boiler Room/20: \"Blacksmith's/BO 13 1/334 1 0 335 1 0 336 1 0/2\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Smelting copper ore in the furnace.",
+        "sNome": "Copper Bar",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Smelting iron ore in the furnace.",
+        "sNome": "Iron Bar",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Smelting gold ore in the furnace.",
+        "sNome": "Gold Bar",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 21,
+    "sNome": "Geologist's",
+    "sLocal": "Boiler Room",
+    "sRecompensa": "Omni Geode x5",
+    "sLinha": "Boiler Room/21: \"Geologist's/O 749 5/80 1 0 86 1 0 84 1 0 82 1 0/1\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found on all levels of the mines and in geodes.",
+        "sNome": "Quartz",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (level 1 - 39) and in geodes.",
+        "sNome": "Earth Crystal",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (level 40 - 79) and in geodes.",
+        "sNome": "Frozen Tear",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (level 80+) and in magma geodes.",
+        "sNome": "Fire Quartz",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 22,
+    "sNome": "Adventurer's",
+    "sLocal": "Boiler Room",
+    "sRecompensa": "Small Magnet Ring x1",
+    "sLinha": "Boiler Room/22: \"Adventurer's/R 518 1/766 99 0 767 10 0 768 1 0 769 1 0/1/2\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 99,
+        "sDescricao": "Dropped by slimes in the mines.",
+        "sNome": "Slime",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 10,
+        "sDescricao": "Dropped by bats in the mines.",
+        "sNome": "Bat Wing",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Dropped by ghosts in the mines.",
+        "sNome": "Solar Essence",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Dropped by shadow men in the mines.",
+        "sNome": "Void Essence",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 23,
+    "sNome": "2,500g",
+    "sLocal": "Vault",
+    "sRecompensa": "Chocolate Cake x3",
+    "sLinha": "Vault/23: \"2,500g/O 220 3/-1 2500 2500/4\"",
+    "lstItens": []
+  },
+  {
+    "nCdBundle": 24,
+    "sNome": "5,000g",
+    "sLocal": "Vault",
+    "sRecompensa": "Quality Fertilizer x30",
+    "sLinha": "Vault/24: \"5,000g/O 369 30/-1 5000 5000/2\"",
+    "lstItens": []
+  },
+  {
+    "nCdBundle": 25,
+    "sNome": "10,000g",
+    "sLocal": "Vault",
+    "sRecompensa": "Lightning Rod x1",
+    "sLinha": "Vault/25: \"10,000g/BO 9 1/-1 10000 10000/3\"",
+    "lstItens": []
+  },
+  {
+    "nCdBundle": 26,
+    "sNome": "25,000g",
+    "sLocal": "Vault",
+    "sRecompensa": "Crystalarium x1",
+    "sLinha": "Vault/26: \"25,000g/BO 21 1/-1 25000 25000/1\"",
+    "lstItens": []
+  },
+  {
+    "nCdBundle": 31,
+    "sNome": "Chef's",
+    "sLocal": "Bulletin Board",
+    "sRecompensa": "Pink Cake x3",
+    "sLinha": "Bulletin Board/31: \"Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Harvested from maple trees using a tapper.",
+        "sNome": "Maple Syrup",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in the Secret Woods during summer.",
+        "sNome": "Fiddlehead Fern",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found by pigs while grazing outdoors.",
+        "sNome": "Truffle",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Poppy",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Acquired by cooking (recipe necessary).",
+        "sNome": "Maki Roll",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Acquired by cooking (recipe necessary).",
+        "sNome": "Fried Egg",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 32,
+    "sNome": "Field Research",
+    "sLocal": "Bulletin Board",
+    "sRecompensa": "Recycling Machine x1",
+    "sLinha": "Bulletin Board/32: \"Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (level 83-120) or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Purple Mushroom",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found by foraging from the beach in winter.",
+        "sNome": "Nautilus Shell",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Found in lakes and rivers anytime at all seasons.",
+        "sNome": "Chub",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (level 40-79).",
+        "sNome": "Frozen Geode",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 33,
+    "sNome": "Enchanter's",
+    "sLocal": "Bulletin Board",
+    "sRecompensa": "Gold Bar x5",
+    "sLinha": "Bulletin Board/33: \"Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Harvested from oak trees using a tapper.",
+        "sNome": "Oak Resin",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Produced by putting most fruits into a keg.",
+        "sNome": "Wine",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Dropped by rabbits in the coop. Also dropped by a serpent in Skull Cavern (0.8%).",
+        "sNome": "Rabbit's Foot",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Gathered from pomegranate trees during fall.",
+        "sNome": "Pomegranate",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 34,
+    "sNome": "Dye",
+    "sLocal": "Bulletin Board",
+    "sRecompensa": "Seed Maker x1",
+    "sLinha": "Bulletin Board/34: \"Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in the mines (frequent in depths 105 to 120) or in your farm's cave if you chose the mushroom perk.",
+        "sNome": "Red Mushroom",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be foraged on the far right side of the beach, accessible after using 300 wood to fix the bridge.",
+        "sNome": "Sea Urchin",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during fall.",
+        "sNome": "Sunflower",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Produced by ducks in the coop (similar to how chickens and ducks lay eggs).",
+        "sNome": "Duck Feather",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Can be found in stones and boxes in the mines.",
+        "sNome": "Aquamarine",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 1,
+        "sDescricao": "Crops during the summer. Seeds can be purchased from Pierre's at year 2 and onward.",
+        "sNome": "Red Cabbage",
+        "sQualidade": "Common"
+      }
+    ]
+  },
+  {
+    "nCdBundle": 35,
+    "sNome": "Fodder",
+    "sLocal": "Bulletin Board",
+    "sRecompensa": "Heater x1",
+    "sLinha": "Bulletin Board/35: \"Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3\"",
+    "lstItens": [
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 10,
+        "sDescricao": "Crops during summer.",
+        "sNome": "Wheat",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 10,
+        "sDescricao": "Purchased from Marnie at the ranch or created by using the sickle on grass once you have a silo.",
+        "sNome": "Hay",
+        "sQualidade": "Common"
+      },
+      {
+        "bIsVisivel": true,
+        "nQuantidade": 3,
+        "sDescricao": "Gathered from apple trees during fall.",
+        "sNome": "Apple",
+        "sQualidade": "Common"
+      }
+    ]
+  }
+]

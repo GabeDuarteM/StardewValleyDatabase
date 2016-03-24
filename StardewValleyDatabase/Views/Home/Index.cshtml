@@ -1,188 +1,188 @@
 ﻿@model ItemViewModel
 @using StardewValleyDatabase.ViewModels
 
-    @{
-        ViewBag.Title = "Stardew Valley Tools - Items";
+@{
+    ViewBag.Title = "Stardew Valley Database";
+}
+
+<input id="sItem" class="typeahead" type="text" placeholder="Search item...">
+<hr />
+<div id="results" class="panel-group" />
+
+<script type="text/javascript">
+    var jsonItens = @Html.Raw(Json.Encode(Model.lstItens))
+    var itemList = @Html.Raw(Json.Encode(Model.lstNomeItens))
+    var itemListLowerCase = @Html.Raw(Json.Encode(Model.lstNomeItensLowerCase))
+
+    $(".panel-group").hide();
+
+    var options = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.whitespace,
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        local: itemList
+    })
+
+    $('#sItem').typeahead(null, {
+        name: 'options',
+        source: options
+    });
+
+    $("#sItem").bind("typeahead:select", carregarItem);
+    $("#sItem").bind("typeahead:autocomplete", carregarItem);
+    $("#sItem").on("input", carregarItem);
+
+    function carregarItem(){
+        var html = "";
+        if (itemListLowerCase.indexOf(document.getElementById('sItem').value.toLowerCase()) > -1)
+        {
+            $.each(jsonItens,function(i, item)
+            {
+                if (item.sNome.toLowerCase() == document.getElementById('sItem').value.toLowerCase())
+                {
+                    // - Item
+                    html += "<div class=\"panel panel-default\">\r\n";
+                    html += "<div class=\"panel-heading\">\r\n";
+                    html += "<h4 class=\"panel-title\">"  + item.sNome + "</h4>\r\n";
+                    html += "</div>\r\n";
+                    html += "<ul class=\"list-group\">\r\n";
+                    if (item.sClasseDescricao != null && item.sClasseDescricao != "")
+                    {
+                        html += "<li class=\"list-group-item\">Type: " + item.sClasseDescricao + "</li>\r\n"
+                    }
+                    html += "<li class=\"list-group-item\">Description: " + item.sDescricao + "</li>\r\n"
+                    if (item.lstBundles.length > 0)
+                    {
+                        // -- Bundles
+                        html += "<div class=\"panel panel-default \">\r\n";
+                        html += "<div class=\"panel-heading collapsible\">\r\n";
+                        html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#bundles"+i+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> Bundles</h4>\r\n";
+                        html += "</div>\r\n";
+                        html += "<div id=\"bundles"+i+"\" class=\"panel-collapse collapse\">\r\n";
+                        html += "<ul class=\"list-group\">\r\n"
+                        $.each(item.lstBundles,function(ii,bundle)
+                        {
+                            // --- Bundle
+                            html += "<div class=\"panel panel-default \">\r\n";
+                            html += "<div class=\"panel-heading collapsible\">\r\n";
+                            html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#bundle"+i+"-"+ii+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> " + bundle.sNome + "</h4>\r\n";
+                            html += "</div>\r\n";
+                            html += "<div id=\"bundle"+i+"-"+ii+"\" class=\"panel-collapse collapse\">\r\n";
+                            html += "<ul class=\"list-group\">\r\n";
+                            html += "<li class=\"list-group-item\">Location: " + bundle.sLocal + "</li>\r\n";
+                            html += "<li class=\"list-group-item\">Reward: "+ bundle.sRecompensa + "</li>\r\n";
+
+                            // ---- Itens
+                            html += "<li class=\"list-group-item\">Items: ";
+                            $.each(bundle.lstItens,function(iii,itemBundle)
+                            {
+                                // ----- Item
+                                html += " <span data-toggle=\"tooltip\" data-placement=\"bottom\" title=\""+itemBundle.sDescricao+"\"><span class=\"glyphicon glyphicon-grain\" ></span> "+itemBundle.sNome+" x"+itemBundle.nQuantidade+ ((itemBundle.sQualidade == "gold") ? " (Gold quality)" : "")+"</span>";
+                            });
+                            html.slice(0,-2);
+                            html += "</li>\r\n";
+                            html += "</ul>\r\n";
+                            html += "</div>\r\n";
+                            html += "</div>\r\n";
+                        });
+                        html += "</ul>\r\n";
+                        html += "</div>\r\n";
+                        html += "</div>\r\n";
+                    }
+                    if (item.lstReceitas.length > 0)
+                    {
+                        // -- Receitas
+                        html += "<div class=\"panel panel-default \">\r\n";
+                        html += "<div class=\"panel-heading collapsible\">\r\n";
+                        html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#receitas"+i+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> Recipes</h4>\r\n";
+                        html += "</div>\r\n";
+                        html += "<div id=\"receitas"+i+"\" class=\"panel-collapse collapse\">\r\n";
+                        html += "<ul class=\"list-group\">\r\n"
+                        $.each(item.lstReceitas,function(ii,receita)
+                        {
+                            // --- Receita
+                            html += "<div class=\"panel panel-default \">\r\n";
+                            html += "<div class=\"panel-heading collapsible\">\r\n";
+                            html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#receita"+i+"-"+ii+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> " + receita.sNome + "</h4>\r\n";
+                            html += "</div>\r\n";
+                            html += "<div id=\"receita"+i+"-"+ii+"\" class=\"panel-collapse collapse\">\r\n";
+                            html += "<ul class=\"list-group\">\r\n";
+                            html += "<li class=\"list-group-item\">How to acquire: " + receita.sSource + "</li>\r\n";
+
+                            // ---- Itens
+                            html += "<li class=\"list-group-item\">Ingredients: ";
+                            $.each(receita.lstItens,function(ii,itemReceita)
+                            {
+                                // ----- Item
+                                html += " <span class=\"glyphicon glyphicon-cutlery\"></span> "+itemReceita.sNome+" x"+itemReceita.nQuantidade+"</span>";
+                            });
+                            html.slice(0,-2);
+                            html += "</li>\r\n";
+                            html += "</ul>\r\n";
+                            html += "</div>\r\n";
+                            html += "</div>\r\n";
+                        });
+                        html += "</ul>\r\n";
+                        html += "</div>\r\n";
+                        html += "</div>\r\n";
+                    }
+                    if (item.lstCrafts.length > 0)
+                    {
+                        // -- Crafts
+                        html += "<div class=\"panel panel-default \">\r\n";
+                        html += "<div class=\"panel-heading collapsible\">\r\n";
+                        html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#crafts"+i+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> Crafts</h4>\r\n";
+                        html += "</div>\r\n";
+                        html += "<div id=\"crafts"+i+"\" class=\"panel-collapse collapse\">\r\n";
+                        html += "<ul class=\"list-group\">\r\n"
+                        $.each(item.lstCrafts,function(ii,craft)
+                        {
+                            // --- Receita
+                            html += "<div class=\"panel panel-default \">\r\n";
+                            html += "<div class=\"panel-heading collapsible\">\r\n";
+                            html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#craft"+i+"-"+ii+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> " + craft.sNome + "</h4>\r\n";
+                            html += "</div>\r\n";
+                            html += "<div id=\"craft"+i+"-"+ii+"\" class=\"panel-collapse collapse\">\r\n";
+                            html += "<ul class=\"list-group\">\r\n";
+                            html += "<li class=\"list-group-item\">Amount produced per craft: " + craft.nQtProduzida + "</li>\r\n";
+
+                            // ---- Itens
+                            html += "<li class=\"list-group-item\">Items: ";
+                            $.each(craft.lstItens,function(ii,itemCraft)
+                            {
+                                // ----- Item
+                                html += " <span class=\"glyphicon glyphicon-wrench\"></span> "+itemCraft.sNome+" x"+itemCraft.nQuantidade+"</span>";
+                            });
+                            html.slice(0,-2);
+                            html += "</li>\r\n";
+                            html += "</ul>\r\n";
+                            html += "</div>\r\n";
+                            html += "</div>\r\n";
+                        });
+                        html += "</ul>\r\n";
+                        html += "</div>\r\n";
+                        html += "</div>\r\n";
+                    }
+                }
+                html += "</ul>\r\n";
+                html += "</div>\r\n";
+            });
+            $("#results").html(html);
+            $(".panel-group").show();
+            $("#sItem").typeahead('close');
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('[data-toggle=\"collapse\"]').on('click', function() {
+                $(this).find('.toggle').toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+            });
+
+        } else if (itemList.indexOf(document.getElementById('sItem').value == ""))
+        {
+            $("#results").html("");
+            $(".panel-group").hide();
+        }
     }
 
-    <input id="sItem" class="typeahead" type="text" placeholder="Search item...">
-    <hr />
-    <div id="results" class="panel-group" />
-
-    <script type="text/javascript">
-        var jsonItens = @Html.Raw(Json.Encode(Model.lstItens))
-        var itemList = @Html.Raw(Json.Encode(Model.lstNomeItens))
-        var itemListLowerCase = @Html.Raw(Json.Encode(Model.lstNomeItensLowerCase))
-
-        $(".panel-group").hide();
-
-        var options = new Bloodhound({
-            datumTokenizer: Bloodhound.tokenizers.whitespace,
-            queryTokenizer: Bloodhound.tokenizers.whitespace,
-            local: itemList
-        })
-
-        $('#sItem').typeahead(null, {
-            name: 'options',
-            source: options
-        });
-
-        $("#sItem").bind("typeahead:select", carregarItem);
-        $("#sItem").bind("typeahead:autocomplete", carregarItem);
-        $("#sItem").on("input", carregarItem);
-
-        function carregarItem(){
-            var html = "";
-            if (itemListLowerCase.indexOf(document.getElementById('sItem').value.toLowerCase()) > -1)
-            {
-                $.each(jsonItens,function(i, item)
-                {
-                    if (item.sNome.toLowerCase() == document.getElementById('sItem').value.toLowerCase())
-                    {
-                        // - Item
-                        html += "<div class=\"panel panel-default\">\r\n";
-                        html += "<div class=\"panel-heading\">\r\n";
-                        html += "<h4 class=\"panel-title\">"  + item.sNome + "</h4>\r\n";
-                        html += "</div>\r\n";
-                        html += "<ul class=\"list-group\">\r\n";
-                        if (item.sClasseDescricao != null && item.sClasseDescricao != "")
-                        {
-                            html += "<li class=\"list-group-item\">Type: " + item.sClasseDescricao + "</li>\r\n"
-                        }
-                        html += "<li class=\"list-group-item\">Description: " + item.sDescricao + "</li>\r\n"
-                        if (item.lstBundles.length > 0)
-                        {
-                            // -- Bundles
-                            html += "<div class=\"panel panel-default \">\r\n";
-                            html += "<div class=\"panel-heading collapsible\">\r\n";
-                            html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#bundles"+i+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> Bundles</h4>\r\n";
-                            html += "</div>\r\n";
-                            html += "<div id=\"bundles"+i+"\" class=\"panel-collapse collapse\">\r\n";
-                            html += "<ul class=\"list-group\">\r\n"
-                            $.each(item.lstBundles,function(ii,bundle)
-                            {
-                                // --- Bundle
-                                html += "<div class=\"panel panel-default \">\r\n";
-                                html += "<div class=\"panel-heading collapsible\">\r\n";
-                                html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#bundle"+i+"-"+ii+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> " + bundle.sNome + "</h4>\r\n";
-                                html += "</div>\r\n";
-                                html += "<div id=\"bundle"+i+"-"+ii+"\" class=\"panel-collapse collapse\">\r\n";
-                                html += "<ul class=\"list-group\">\r\n";
-                                html += "<li class=\"list-group-item\">Location: " + bundle.sLocal + "</li>\r\n";
-                                html += "<li class=\"list-group-item\">Reward: "+ bundle.sRecompensa + "</li>\r\n";
-
-                                // ---- Itens
-                                html += "<li class=\"list-group-item\">Items: ";
-                                $.each(bundle.lstItens,function(iii,itemBundle)
-                                {
-                                    // ----- Item
-                                    html += " <span data-toggle=\"tooltip\" data-placement=\"bottom\" title=\""+itemBundle.sDescricao+"\"><span class=\"glyphicon glyphicon-grain\" ></span> "+itemBundle.sNome+" x"+itemBundle.nQuantidade+ ((itemBundle.sQualidade == "gold") ? " (Gold quality)" : "")+"</span>";
-                                });
-                                html.slice(0,-2);
-                                html += "</li>\r\n";
-                                html += "</ul>\r\n";
-                                html += "</div>\r\n";
-                                html += "</div>\r\n";
-                            });
-                            html += "</ul>\r\n";
-                            html += "</div>\r\n";
-                            html += "</div>\r\n";
-                        }
-                        if (item.lstReceitas.length > 0)
-                        {
-                            // -- Receitas
-                            html += "<div class=\"panel panel-default \">\r\n";
-                            html += "<div class=\"panel-heading collapsible\">\r\n";
-                            html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#receitas"+i+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> Recipes</h4>\r\n";
-                            html += "</div>\r\n";
-                            html += "<div id=\"receitas"+i+"\" class=\"panel-collapse collapse\">\r\n";
-                            html += "<ul class=\"list-group\">\r\n"
-                            $.each(item.lstReceitas,function(ii,receita)
-                            {
-                                // --- Receita
-                                html += "<div class=\"panel panel-default \">\r\n";
-                                html += "<div class=\"panel-heading collapsible\">\r\n";
-                                html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#receita"+i+"-"+ii+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> " + receita.sNome + "</h4>\r\n";
-                                html += "</div>\r\n";
-                                html += "<div id=\"receita"+i+"-"+ii+"\" class=\"panel-collapse collapse\">\r\n";
-                                html += "<ul class=\"list-group\">\r\n";
-                                html += "<li class=\"list-group-item\">How to acquire: " + receita.sSource + "</li>\r\n";
-
-                                // ---- Itens
-                                html += "<li class=\"list-group-item\">Ingredients: ";
-                                $.each(receita.lstItens,function(ii,itemReceita)
-                                {
-                                    // ----- Item
-                                    html += " <span class=\"glyphicon glyphicon-cutlery\"></span> "+itemReceita.sNome+" x"+itemReceita.nQuantidade+"</span>";
-                                });
-                                html.slice(0,-2);
-                                html += "</li>\r\n";
-                                html += "</ul>\r\n";
-                                html += "</div>\r\n";
-                                html += "</div>\r\n";
-                            });
-                            html += "</ul>\r\n";
-                            html += "</div>\r\n";
-                            html += "</div>\r\n";
-                        }
-                        if (item.lstCrafts.length > 0)
-                        {
-                            // -- Crafts
-                            html += "<div class=\"panel panel-default \">\r\n";
-                            html += "<div class=\"panel-heading collapsible\">\r\n";
-                            html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#crafts"+i+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> Crafts</h4>\r\n";
-                            html += "</div>\r\n";
-                            html += "<div id=\"crafts"+i+"\" class=\"panel-collapse collapse\">\r\n";
-                            html += "<ul class=\"list-group\">\r\n"
-                            $.each(item.lstCrafts,function(ii,craft)
-                            {
-                                // --- Receita
-                                html += "<div class=\"panel panel-default \">\r\n";
-                                html += "<div class=\"panel-heading collapsible\">\r\n";
-                                html += "<h4 class=\"panel-title\" data-toggle=\"collapse\" href=\"#craft"+i+"-"+ii+"\"> <span class=\"toggle glyphicon glyphicon-chevron-down\"></span> " + craft.sNome + "</h4>\r\n";
-                                html += "</div>\r\n";
-                                html += "<div id=\"craft"+i+"-"+ii+"\" class=\"panel-collapse collapse\">\r\n";
-                                html += "<ul class=\"list-group\">\r\n";
-                                html += "<li class=\"list-group-item\">Amount produced per craft: " + craft.nQtProduzida + "</li>\r\n";
-
-                                // ---- Itens
-                                html += "<li class=\"list-group-item\">Items: ";
-                                $.each(craft.lstItens,function(ii,itemCraft)
-                                {
-                                    // ----- Item
-                                    html += " <span class=\"glyphicon glyphicon-wrench\"></span> "+itemCraft.sNome+" x"+itemCraft.nQuantidade+"</span>";
-                                });
-                                html.slice(0,-2);
-                                html += "</li>\r\n";
-                                html += "</ul>\r\n";
-                                html += "</div>\r\n";
-                                html += "</div>\r\n";
-                            });
-                            html += "</ul>\r\n";
-                            html += "</div>\r\n";
-                            html += "</div>\r\n";
-                        }
-                    }
-                    html += "</ul>\r\n";
-                    html += "</div>\r\n";
-                });
-                $("#results").html(html);
-                $(".panel-group").show();
-                $("#sItem").typeahead('close');
-                $('[data-toggle="tooltip"]').tooltip();
-
-                $('[data-toggle=\"collapse\"]').on('click', function() {
-                    $(this).find('.toggle').toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
-                });
-
-            } else if (itemList.indexOf(document.getElementById('sItem').value == ""))
-            {
-                $("#results").html("");
-                $(".panel-group").hide();
-            }
-        }
-
-        String.prototype.capitalizeFirstLetter = function () {
-            return this.charAt(0).toUpperCase() + this.slice(1);
-        }
-    </script>
+    String.prototype.capitalizeFirstLetter = function () {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    }
+</script>

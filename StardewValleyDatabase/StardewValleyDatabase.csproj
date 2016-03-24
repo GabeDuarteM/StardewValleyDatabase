@@ -211,6 +211,7 @@
     <Content Include="Arquivos\Stardew\Monsters.yaml" />
     <Content Include="Arquivos\Stardew\ObjectInformation.yaml" />
     <Content Include="Arquivos\Stardew\weapons.yaml" />
+    <None Include="Properties\PublishProfiles\SDVDatabase - Web Deploy.pubxml" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
